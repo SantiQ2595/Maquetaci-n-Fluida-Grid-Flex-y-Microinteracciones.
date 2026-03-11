@@ -75,3 +75,26 @@ footer ul {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
+.features-grid {
+  grid-template-areas: "area1 area2 area3";
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.features-grid div {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.feature1 {
+  grid-area: area1;
+}
+
+.feature2 {
+  grid-area: area2;
+}
+
+.feature3 {
+  grid-area: area3;
+}
